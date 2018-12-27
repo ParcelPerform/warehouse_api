@@ -9,7 +9,7 @@ def hello_world():
     return 'Hello, World!'
 
 @app.route('/create-order/', methods=['POST'])
-def add_restaurant():
+def create_order():
     time.sleep(4)
     return jsonify({"status": "success", "data": {}})
 
